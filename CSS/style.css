@@ -310,6 +310,120 @@ section {
     margin-bottom: 24px;
 }
 
+.section-4 {
+    margin-top: 70px;
+}
+
+.section-4 h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-4 .peragrap {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.section-4-first-content {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    max-width: 1170px;
+    min-height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 15px;
+   
+    
+}
+
+.tour-price {
+    max-width: 580px;
+    min-height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+    padding: 40px;
+    margin: 60px;
+
+}
+
+.tour-price h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.tour-price p {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+
+.tour-title {
+    display: flex;
+    gap: 24px;
+}
+
+.tour-title h4 {
+    color: black;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.tour-price button {
+    padding: 14px 26px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.section-4-2nd-contecd {
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    max-width: 1170px;
+    min-height: 500px;
+    border-radius: 16px;
+    display: flex;
+   justify-content: start;
+   margin-bottom: 15px;
+  
+
+}
+
+
+.section-4-3rd-contecd {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    max-width: 1170px;
+    min-height: 500px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
 
 
 
@@ -331,6 +445,7 @@ section {
         display: block;
         position: absolute;
         right: 15px;
+        font-size: 2rem;
     }
 
     nav li {
@@ -346,7 +461,7 @@ section {
     }
 
     .banner h3, .section-2 h3 {
-        font-size: 36px;
+        font-size: 32px;
         white-space: nowrap;
         
     }
@@ -378,8 +493,56 @@ section {
         width: 100%;
     }
 
-    .section-2, .section-3 {
+    .section-2, .section-3, .section-4 {
         margin-top: 20px;
-    } 
+    }
+    
+    .tour-price {
+        margin: 150px 20px 20px 20px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .tour-price h2 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        margin: 15px 0;
+    }
+    
+    .tour-price p {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    
+    
+    .tour-title {
+        display: flex;
+        gap: 10px;
+        
+    }
+    
+    .tour-title h4 {
+        color: black;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+      
+        
+    }
+    
+    .tour-price button {
+        padding: 14px 26px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    
     
 }
