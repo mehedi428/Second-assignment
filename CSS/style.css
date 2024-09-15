@@ -611,6 +611,7 @@ footer {
 
 .footer-section {
     text-align: center;
+    padding: 70px;
 }
 
 .footer-section h3 {
@@ -654,7 +655,7 @@ footer {
 }
 
 .footer-section h6 {
-    margin: 50px;
+    margin-top: 50px;
 }
 
 
