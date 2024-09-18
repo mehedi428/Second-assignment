@@ -959,6 +959,12 @@ footer {
         
     }
 
+    .footer-section h3 {
+        white-space: nowrap;
+    }
+        
+    
+
     .footer-section {
         padding-top: 30px;
     }
