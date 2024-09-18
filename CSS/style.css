@@ -8,7 +8,7 @@
 /* header section style */
 header {
     padding: 50px 130px;
-    
+        
 }
 
 nav {
@@ -67,15 +67,14 @@ nav li a {
     flex-direction: column;
     border-radius: 16px;
     height: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
+    margin: 50px auto;
 }
 
 .banner h3 {
     color: #FFF;
-    font-family: Mulish;
+    font-family: Mulish; 
     font-size: 64px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -85,10 +84,11 @@ nav li a {
 .banner p {
     color: #FFF;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
     text-align: center;
+    padding: 0 15%;
 }
 
 
@@ -106,12 +106,23 @@ nav li a {
     color: rgba(19, 19, 24, 0.50);
     border-radius: 8px;
     border: none;
+    text-align: left;
+    
+    
+}
+
+.banner-btn button i {
+    text-align: right;
 }
 
 .btn {
     background: #FF5400;
     color: #FFF;
+    text-align: center !important;
 }
+
+
+
 
 /* start main section style */
 section {
@@ -137,7 +148,7 @@ section {
 .section-1 p {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -146,6 +157,7 @@ section {
 
 .section-1 li {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .section-1 button {
@@ -155,13 +167,21 @@ section {
     margin-top: 20px;
 }
 
+.section-1-content {
+    width: 50%;
+}
+
+.section-1-content ul {
+   margin-left: 15px;
+}
+
 .section-1-img {
-    width: 100%;
+    width: 50%;
 }
 
 .section-1-img img {
-    height: 100%;
-    width: 100%;
+    height: 540px;
+    max-width: 540px;
 }
 
 .section-2 {
@@ -181,19 +201,40 @@ section {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
+    padding: 0 15%;
 }
 
 .first-section {
     display: flex;
-    gap: 15px;
     margin-bottom: 15px;
+    max-width:1170px ;
+    gap: 15px;
 }
 
-.first-section img {
+.position-center img {
+    width: 100%;
+    
+}
+
+.first-section .position-center {
     width: calc( (100% - 15px)/2);
+    
+}
+
+.position-center {
+    position: relative;
+}
+
+.position-center h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #FFF;
 }
 
 .second-section {
@@ -203,9 +244,26 @@ section {
     margin-bottom: 15px;
 }
 
-.second-section img {
-    width: calc( (100% - 30px)/3);
+
+.position-center-2 img {
+    width: 100%;
+    height: 285px;
 }
+
+.position-center-2 {
+    position: relative;
+}
+
+.position-center-2 h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #FFF;
+}
+
+
 
 .third-section {
     display: flex;
@@ -214,9 +272,29 @@ section {
     margin-bottom: 15px;
 }
 
-.third-section img {
-    width: calc( (100% - 15px)/2);
 
+.position-center-3 img {
+    width: 100%;
+}
+
+
+
+.position-center-3 {
+    position: relative;
+}
+
+.position-center-3 h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #FFF;
+}
+
+.position-center-3 img {
+    width: 100%;
+    height: 300px;
 }
 
 .section-3 {
@@ -238,8 +316,9 @@ section {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
+    padding: 0 15%;
 
 }
 
@@ -331,6 +410,7 @@ section {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
+    padding: 0 15%;
 }
 
 .section-4-first-content {
@@ -441,6 +521,10 @@ section {
     gap: 30px;
 }
 
+.section-5-content {
+    width: 50%;
+}
+
 .section-5-content h2 {
     color: #131318;
     font-family: Mulish;
@@ -455,16 +539,20 @@ section {
 .section-5-content p {
     color: #5A5A5D;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 24px;
 
 }
 
+.section-5-content ul {
+    margin-left: 15px;
+}
+
 .section-5-content li {
     color: #131318;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     margin-bottom: 24px;
@@ -486,7 +574,7 @@ section {
     background-image: url('../Images/Group\ 40089.png');
     background-repeat: no-repeat;
     border-radius: 16px;
-    width: 600px;
+    width: 50%;
     min-height: 400px;
     display: flex;
     justify-content: center;
@@ -528,7 +616,7 @@ section {
 .section-6-content p {
     color: #5A5A5D;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -595,6 +683,32 @@ form input {
     margin-right: 10px;
 }
 
+.section-7 {
+    margin-top: 70px;
+    display: flex;
+    gap: 15px;
+}
+
+.section-7 .card {
+    width: calc( (100% - 30px)/3);
+    border-radius: 16px;
+    border: 2px solid bisque;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px); 
+    padding: 20px;
+}
+
+.section-7 .card img {
+    width: 200px;
+    height: 100px;
+}
+
+.section-7 .card p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
 
 
 /* footer section style  */
@@ -632,7 +746,7 @@ footer {
     color: #5A5A5D;
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     padding: 0 15%;
 }
@@ -677,6 +791,7 @@ footer {
 
     header {
         padding: 15px;
+        margin-bottom: -50px;
     }
 
     .menu-icon {
@@ -692,7 +807,7 @@ footer {
 
     .banner {
         padding: 15px;
-        margin: 20px;
+        margin-bottom: 0px;
         height: 100%;
       
         
@@ -702,6 +817,11 @@ footer {
         font-size: 32px;
         white-space: nowrap;
         
+    }
+
+    .banner p, .section-2 p, .section-3 .title, .section-4 .peragrap, .footer-section p {
+        padding: 0;
+
     }
 
     .banner-btn {
@@ -725,15 +845,42 @@ footer {
     .third-section, 
     .first-content,
     .section-5,
-    .section-6 {
+    .section-6,
+    .section-7 {
         flex-direction: column;
     }
 
-    .section-2 img {
+    .section-1-content {
         width: 100%;
     }
 
-    .section-2, .section-3, .section-4, .section-6, footer {
+    .section-1-img {
+        width: 100%;
+    }
+
+    .section-1-img img {
+        width: 100%;
+    }
+
+    .section-2 .position-center {
+        width: 100%;
+    }
+
+    .section-2 .position-center-2 {
+        width: 100%;
+    }
+
+    .section-2 .position-center-3 {
+        width: 100%;
+    }
+
+    .section-2 img {
+        height: 200px;
+    }
+
+    
+
+    .section-2, .section-3, .section-4, .section-6, .section-7, footer {
         margin-top: 20px;
     }
     
@@ -791,6 +938,10 @@ footer {
         padding: 0;
     }
 
+    .section-5-content {
+        width: 100%;
+    }
+
     .section-5-img {
         width: 100%;
         
@@ -799,6 +950,13 @@ footer {
     .section-6-img {
         width: 100%;
         height: 400px;
+    }
+
+    
+
+    .section-7 .card {
+        width:90%;
+        
     }
 
     .footer-section {
